@@ -1,30 +1,29 @@
-# Binary Search Tree (BST) & Graphviz Implementation
+# Árvore Binária de Busca (BST) & Implementação com Graphviz
 
-## Core Features
-- **Dynamic CRUD:** Node insertion and deletion handling leaf, single, and double-child cases.
-- **Branch Deep Purge:** Complete memory deallocation of specific sub-trees without leaking data.
-- **Data Analytics:** Real-time branch stats (sum of values, leaf count, total node count).
-- **Graphviz Pipeline:** Exports structural states to `.dot` files for architectural mapping.
-- **Fisher-Yates Algorithm:** Native randomized array generation for balanced stress tests.
+## Funcionalidades Principais
+- **CRUD Dinâmico:** Inserção e remoção de nós, tratando os casos de nó folha, filho único e dois filhos.
+- **Poda Profunda de Ramos:** Desalocação completa de memória de sub-árvores específicas, sem vazamento de dados.
+- **Análise de Dados:** Estatísticas de ramos em tempo real (soma dos valores, contagem de folhas, contagem total de nós).
+- **Pipeline Graphviz:** Exporta os estados estruturais para arquivos `.dot` para mapeamento arquitetural.
+- **Algoritmo de Fisher-Yates:** Geração nativa de arrays aleatórios para testes de estresse balanceados.
 
-## Tree Architecture
+## Arquitetura da Árvore
 
-### Initial State (`grafo_antes.dot`)
-![Tree Before]
+### Estado Inicial (`grafo_antes.dot`)
+![Árvore Antes]
 <img width="1383" height="1595" alt="antes" src="https://github.com/user-attachments/assets/a8f8395a-93ba-4cb5-b3df-c57f8a4b9e02" />
 
-
 ---
 
-### Post Batch Deletion (`grafo_depois.dot`)
-![Tree After]
+### Após Remoção em Lote (`grafo_depois.dot`)
+![Árvore Depois]
 <img width="1527" height="1307" alt="depois" src="https://github.com/user-attachments/assets/f8da6ac4-fd49-443a-bbd8-df0b4b5cae74" />
 
-
 ---
 
-## Quick Start & Compilation
+## Início Rápido & Compilação
 
-### Environment Setup
+### Configuração do Ambiente
 ```bash
 sudo apt update && sudo apt install gcc graphviz -y
+```
